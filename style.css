@@ -1,0 +1,76 @@
+.narvabar{
+    display: flex;
+    justify-content:space-around;
+}
+.button{
+    background-color: aliceblue;
+    color: red;
+    border: solid;
+}
+.button1{
+    background-color: brown;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+.text{
+    display: flex;
+font-size: 30px;
+}
+.image1{
+    width: 10px;
+    height: 10px;
+}
+.body{
+    display: flex;
+gap: 30px;
+}
+.button2{
+    border: solid;
+    display: flex;
+}
+.body1{
+    background-color: brown;
+    width: 600px;
+}
+.text5{
+    background-color: black;
+    color: white;
+    width: 600px;
+}
+   .button3{
+    border: solid;
+    background-color: brown;
+    color: white;
+    width: 10%;
+    padding-left: 50px;
+   }
+.body2{
+    display: flex;
+}
+.text6{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.text7{
+    display: flex;
+    justify-content: space-between;
+}
+.button4{
+    border: solid;
+    height: 50px;
+}
+.images{
+    background-color: brown;
+    color: white;
+    width: 600px;
+}
+.footer{
+  display: flex; 
+  justify-content: space-between; 
+}
+@media screen (width: 375px;){
+
+}
+    
