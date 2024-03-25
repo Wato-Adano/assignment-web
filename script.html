@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <p>Go back to <a href="index.html">Deliver service</a></p>
+<head>
+    <title>
+        Change Font Color - Method 2
+    </title>
+    <style>
+        body {
+            margin: 10rem;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div id="gfg">
+        <h1>
+            Welcome To GeeksForGeeks!!
+        </h1>
+    </div>
+    <label for="selectColor">
+        Select a color:
+    </label>
+    <select id="selectColor" onchange="changeColor()">
+        <option value="black">Black</option>
+        <option value="crimson">Red</option>
+        <option value="green">Green</option>
+        <option value="#0984e3">Blue</option>
+        <option value="cyan">Cyan</option>
+        <option value="#00b894">Mint Leaf</option>
+        <option value="#e84393">Pink</option>
+    </select>
+    <script>
+      
+       
+        function changeColor() {
+            var gfg = document.getElementById("gfg");
+            var selectColor =
+                document.getElementById("selectColor");
+ 
+            var selectedColor =
+            selectColor.options[selectColor.selectedIndex].value;
+ 
+           
+            gfg.style.color = selectedColor;
+        }
+    </script>
+</body>
+ 
+</html>
